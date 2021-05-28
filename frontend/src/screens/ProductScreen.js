@@ -75,7 +75,7 @@ export default function ProductScreen(props) {
               </li>
               {
                 product.countInStock > 0 && (
-                  <>
+                  <div>
                   <li>
                     <div className ="row">
                       <div> Qty </div>
@@ -94,7 +94,7 @@ export default function ProductScreen(props) {
                 <button onClick={addToCartHandler}
                  className="primary block">Add to Cart</button>
               </li>
-              </>
+              </div>
                 )
               }
               

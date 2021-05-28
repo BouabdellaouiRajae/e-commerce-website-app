@@ -18,6 +18,8 @@ import ShippingAddressScreen from './screens/ShippingAddressScreen';
 import SigninScreen from './screens/SigninScreen';
 import ProductEditScreen from './screens/ProductEditScreen';
 import OrderListScreen from './screens/OrderListScreen';
+import UserListScreen from './screens/UserListScreen';
+import DashboardScreen from './screens/DashboardScreen';
 
 
 
@@ -37,6 +39,7 @@ function App() {
     <div className="grid-container">
       <header className="row">
         <div>
+          
           <Link className="brand" to="/">
             Stormy
           </Link>
@@ -78,9 +81,7 @@ function App() {
                   Admin <i className="fa fa-caret-down"></i>
                 </Link>
                 <ul className="dropdown-content">
-                  <li>
-                    <Link to="/dashboard">Dashboard</Link>
-                  </li>
+                 
                   <li>
                     <Link to="/productlist">Products</Link>
                   </li>
@@ -109,6 +110,8 @@ function App() {
         <PrivateRoute path="/profile" component={ProfileScreen}></PrivateRoute>
         <AdminRoute path="/productlist" component={ProductListScreen}></AdminRoute>
         <AdminRoute path="/orderlist" component={OrderListScreen}></AdminRoute>
+        <AdminRoute path="/userlist" component={UserListScreen}></AdminRoute>
+        <AdminRoute path="/dashboard"component={DashboardScreen}></AdminRoute>
         <Route path="/" component={HomeScreen} exact></Route>
         
       </main>

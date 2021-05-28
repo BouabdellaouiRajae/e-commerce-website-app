@@ -98,7 +98,7 @@ export default function ProductEditScreen(props) {
         ) : error ? (
           <MessageBox variant="danger">{error}</MessageBox>
         ) : (
-          <>
+          <div className >
             <div>
               <label htmlFor="name">Name</label>
               <input
@@ -189,7 +189,7 @@ export default function ProductEditScreen(props) {
                 Update
               </button>
             </div>
-          </>
+          </div>
         )}
       </form>
     </div>

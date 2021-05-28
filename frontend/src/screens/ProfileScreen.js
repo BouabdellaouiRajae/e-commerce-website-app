@@ -53,7 +53,7 @@ export default function ProfileScreen() {
         ) : error ? (
           <MessageBox variant="danger">{error}</MessageBox>
         ) : (
-          <>
+          <div>
              {loadingUpdate && <LoadingBox></LoadingBox>}
             {errorUpdate && (
               <MessageBox variant="danger">{errorUpdate}</MessageBox>
@@ -106,7 +106,7 @@ export default function ProfileScreen() {
                 Update
               </button>
             </div>
-          </>
+          </div>
         )}
       </form>
     </div>

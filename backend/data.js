@@ -18,7 +18,7 @@ const data = {
     products: [
       {
        
-        name: 'Nike Slim Shirt',
+        name: 'Leather jacket',
         category: 'Shirts',
         image: '/images/p1.jpg',
         price: 120,
@@ -56,7 +56,7 @@ const data = {
         
         name: 'Nike Slim Pant',
         category: 'Pants',
-        image: '/images/p4.jpg',
+        image: '/images/p7.jpg',
         price: 78,
         countInStock:0,
         brand: 'Nike',
@@ -68,7 +68,7 @@ const data = {
         
         name: 'Puma Slim Pant',
         category: 'Pants',
-        image: '/images/p5.jpg',
+        image: '/images/p8.jpg',
         price: 65,
         countInStock:11,
         brand: 'Puma',
@@ -80,7 +80,7 @@ const data = {
         
         name: 'Adidas Fit Pant',
         category: 'Pants',
-        image: '/images/p6.jpg',
+        image: '/images/p9.jpg',
         price: 139,
         countInStock:16,
         brand: 'Adidas',
